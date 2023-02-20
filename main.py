@@ -12,8 +12,8 @@ class pojisteny:
         return f"{self.jmeno} {self.prijmeni}, vek: {self.vek}, tel: {self.telefon}"
 
 
-p1 = pojisteny("Jan", "Novák", 25, "123456789")
-p2 = pojisteny("Jana", "Nováková", 30, "987654321")
+p1 = pojisteny("David", "Krupička", 25, "123456789")
+p2 = pojisteny("Elena", "Santini", 30, "987654321")
 
 pojistenci.append(p1)
 pojistenci.append(p2)
@@ -82,4 +82,6 @@ while True:
 
     elif volba.lower() == "4":
         print("Děkuji za použití evidence")
-        break
+
+    else:
+        print("Chybná volba")
